@@ -36,7 +36,7 @@ The data on the **Kinesis Firehose** arrived at the **Open Search Service** and 
   **Lambda** would send the discord webhook alarm.
 
 
-![Image](https://user-images.githubusercontent.com/55527712/183611090-fd18ea7b-59b3-4716-a7eb-c150f2f465f6.png)
+-->![Image](https://user-images.githubusercontent.com/55527712/183611090-fd18ea7b-59b3-4716-a7eb-c150f2f465f6.png)<--
 
 ### Step 4: Visualization
 ***✔ Firehose to Open Search Service & Open Search Dashboard***
@@ -192,7 +192,7 @@ terraform destroy
 **💡 Timestamp**
 >Smart farm data from sensor should be viewed time-series for client. We used the open search to classify data based on timeline. When the data is directly delivered to open search from **kinesis firehose**, the classified data is shown based on data types with time.
 
-**💡 Real-time**
+**💡 Monitoring & Alert**
 >We chose the **open search dashboard** to provide client monitoring service. When the new document is created in open search index, which is indexing with data classification. The data is classified based on metrics and the classified results are viewed on the open search dashboard.<br>
 On the **open search dashboard**, we can customize the dashboard depending on needs of client. Basically, our **open search dashboard** provides client with data visualization that indicates smart farm’s status. According to the client requirements, we would query easily from **open search service** and visualize specific metric.<br>
 When the **kinesis firehose** send data to **S3** back up, the **lambda** function is called to analysis the log data. If the specific sensor data value exceeded the standard then **lambda** function send to discord alarm immediately. For end client, that’s always critical to be alerted immediately.
