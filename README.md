@@ -58,7 +58,7 @@ Since the data is arrived at open search service from **Kinesis Firehose**, the 
 ## Deployment
 1. Make and move the new directory. Git Clone Github Repository on the directory.
     ```
-    git clone https://github.com/cs-devops-bootcamp/devops-02-Final-TeamD-scenario1.git
+    git clone https://github.com/eun07/SmartFarmIoTSystem.git
     ```
 2. Change Directory to terraform Dierctory.
     ```
