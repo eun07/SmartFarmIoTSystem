@@ -1,5 +1,5 @@
 # Build Data Pipeline of Smart Farm IoT System with monitoring 
-
+![image](https://cdn.discordapp.com/attachments/898818056451665950/1022055889588473866/unknown.png)
 # Overview
 ## Scenario
 >Collect lots of data from sensor that installed on the IoT Device, based on these data send streaming data to log storage through data pipeline. These data can be monitored and visualized based on timeline.
